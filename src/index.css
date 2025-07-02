@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #120345; /* Overall dark purple background */
+}
+
+/* Navigation links */
+a {
+  font-weight: 500;
+  color: #8bb4ff;
+  text-decoration: none;
+  margin: 10px;
+}
+a:hover {
+  color: #aaccff;
+}
+
+/* Title input block */
+input[type="text"] {
+  margin-top: 1rem;
+  padding: 0.6em 1em;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2a72; /* Deep Blue Block */
+  color: #ffffff;
+  width: 250px;
+}
+
+/* Textarea content block */
+textarea {
+  margin-top: 1rem;
+  padding: 1em;
+  border-radius: 8px;
+  border: 1px solid #5d5fef;
+  background-color: #3c096c; /* Purple Block */
+  color: #ffffff;
+  width: 300px;
+  height: 300px;
+  resize: vertical;
+}
+
+/* Button block */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #ff6f61; /* Coral Red Block */
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #ff4c3b;
+  border-color: #ff9990;
+}
+
+/* Mobile and responsive tweaks */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #cad6e1;
+    background-color: rgb(18, 3, 69);
+  }
+  input[type="text"] {
+    background-color: #779bc2;
+  }
+  textarea {
+    background-color: #779bc2;
+  }
+  button {
+    background-color: #779bc2;
+  }
+  button:hover {
+    background-color: #5a7da0;
+  }
+}
