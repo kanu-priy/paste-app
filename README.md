@@ -8,6 +8,7 @@ Think of it as a minimal web-based clipboard manager 🔖.
 
 
 ✨ Features:
+
 ✅ Add new text snippets (pastes)
 
 ✅ Prevent duplicate pastes (shows toast error)
