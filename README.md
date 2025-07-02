@@ -1,12 +1,21 @@
-# React + Vite
+Paste App (React + Redux + Tailwind CSS)
+📌 Overview:
+Paste App is a simple and clean web application built using ReactJS, Redux Toolkit, and Tailwind CSS.
+It allows users to add, manage, and store text snippets (pastes) easily in their browser.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Think of it as a minimal web-based clipboard manager 🔖.
 
-Currently, two official plugins are available:
+✨ Features:
+✅ Add new text snippets (pastes)
+✅ Prevent duplicate pastes (shows toast error)
+✅ Delete saved pastes
+✅ Data persistence using LocalStorage
+✅ Toast notifications using React Hot Toast
+✅ Responsive and modern UI with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack:
+Frontend Framework: ReactJS (Vite or CRA based)
+State Management: Redux Toolkit
+Styling: Tailwind CSS
+Notifications: React Hot Toast
+Persistence: Browser LocalStorage
